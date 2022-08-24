@@ -16,7 +16,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='w-[1000px] flex place-content-center mx-auto'>
+			<div className='min-w-max flex place-content-center mx-auto'>
 				
 				<div className='mx-5 h-50 grid grid-cols-1 content-center'>
 					<h1 className='text-8xl font-semibold'>
