@@ -72,7 +72,7 @@ export default function Home() {
 						<p className='text-lg text-gray mb-3'>Sep 2022 - Dec 2022</p>
 
 						<div className='bg-lavender/[0.1] ml-10 p-4 rounded-md w-[800px]'>
-							<p><span className='text-lavender text-xl'>&#8250;</span> I'll let you know when I find out</p>
+							<p><span className='text-lavender text-xl'>&#8250;</span> I&apos;ll let you know when I find out</p>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@ export default function Home() {
 				<div className='w-[600px] font-mono text-lg'>
 					<h1 className='text-3xl'>Contact</h1>
 
-					<p className='mx-auto mb-5 mt-10 p-2 w-[100%] text-sm text-center font-mono bg-lavender/[0.1] rounded-md'>I'm always open to conversations for new opportunities! Feel free to email me at the address below or say hi on LinkedIn.</p>
+					<p className='mx-auto mb-5 mt-10 p-2 w-[100%] text-sm text-center font-mono bg-lavender/[0.1] rounded-md'>I&apos;m always open to conversations for new opportunities! Feel free to email me at the address below or say hi on LinkedIn.</p>
 					<a href="mailto:manraj836@gmail.com?body=Hello%20Manraj%2C%0D%0A" className='text-lg'>
 						<button className='p-2 hover:underline'>manraj836@gmail.com</button>
 					</a>
