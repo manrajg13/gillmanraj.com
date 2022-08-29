@@ -84,25 +84,25 @@ export default function Home() {
 
 					<div className="grid grid-flow-col place-content-center mt-10">
 
-						<a href='https://github.com/manrajg13/sorting-algorithm-visualizer' className="overflow-hidden p-8 mx-2 bg-lavender/[0.1] w-[260px] h-[280px] shadow-lg hover:text-lavender hover:cursor-pointer">
+						<a href='https://github.com/manrajg13/sorting-algorithm-visualizer' className="relative p-8 mx-2 bg-lavender/[0.1] w-[260px] h-[280px] shadow-lg hover:text-lavender hover:cursor-pointer">
 							<FaFolderOpen className='text-5xl mb-5' />
 							<h1 className='text-xl'>Sorting Algorithm Visualizer</h1>
-							<p className='mt-2 text-sm text-gray'>A visualization of sorting algorithms with pseudocode tracing</p>
-							<p className='mt-10 text-xs text-gray'>Javascript Chart.js</p>
+							<p className='text-sm text-gray'>A visualization of sorting algorithms with pseudocode tracing</p>
+							<p className='absolute bottom-8 text-xs text-gray'>Javascript Chart.js</p>
 						</a>
 
-						<a href='https://github.com/manrajg13/threejs-voxel' className="overflow-hidden p-8 mx-2 bg-lavender/[0.1] w-[260px] h-[280px] shadow-lg hover:text-lavender hover:cursor-pointer">
+						<a href='https://github.com/manrajg13/threejs-voxel' className="relative p-8 mx-2 bg-lavender/[0.1] w-[260px] h-[280px] shadow-lg hover:text-lavender hover:cursor-pointer">
 							<FaFolderOpen className='text-5xl mb-5' />
 							<h1 className='text-xl'>Voxel Render</h1>
-							<p className='mt-2 text-sm text-gray'>I decided to make a voxel model using Blender and rendered it with the help of Three.js</p>
-							<p className='mt-12 text-xs text-gray'>Javascript Three.js</p>
+							<p className='mt-2 text-sm text-gray'>A voxel model created in Blender and rendered with the help of WebGL.</p>
+							<p className='absolute bottom-8 text-xs text-gray'>Javascript Three.js</p>
 						</a>
 
-						<a href='https://github.com/manrajg13/shoefull' className="overflow-hidden p-8 mx-2 bg-lavender/[0.1] w-[260px] h-[280px] shadow-lg hover:text-lavender hover:cursor-pointer">
+						<a href='https://github.com/manrajg13/shoefull' className="relative p-8 mx-2 bg-lavender/[0.1] w-[260px] h-[280px] shadow-lg hover:text-lavender hover:cursor-pointer">
 							<FaFolderOpen className='text-5xl mb-5' />
 							<h1 className='text-xl'>Shoefull</h1>
 							<p className='mt-2 text-sm text-gray'>A 2D game where your objective is to hit as many targets as possible before the time runs out</p>
-							<p className='mt-12 text-xs text-gray'>Rust ggez</p>
+							<p className='absolute bottom-8 text-xs text-gray'>Rust ggez</p>
 						</a>
 					</div>				
 				</div>
@@ -119,7 +119,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<footer className='absolute p-5 text-center w-[100vw] text-gray text-xs'> © 2022 Manraj Gill. All Rights Reserved. </footer>
+			<footer className='absolute py-5 text-center w-[98vw] text-gray text-xs'> © 2022 Manraj Gill. All Rights Reserved. </footer>
 		</>
 	)
 }
