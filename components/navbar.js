@@ -3,22 +3,19 @@ import Link from "next/link"
 
 export default function Navbar() {
 	return (
-		<nav className='fixed left-[50%] top-0 ml-[-500px] p-2 text-lg text-white w-[1000px] bg-dark-gray/[0.8] z-10 font-mono'>
-			<div className='float-left py-5'>
+		<nav className='fixed ml-[-375px] py-4 left-[50%] top-0 text-sm font-bold text-white w-[750px] bg-background/[0.8] z-10'>
+			<div className='float-left'>
 				<Link href='/'>
-					<span className='text-2xl hover:cursor-pointer hover:animate-bounce'>MG</span>
+					<span className='p-3 hover:cursor-pointer hover:text-red transition duration-150 hover:ease-in'>MANRAJ GILL</span>
 				</Link>
 			</div>
 
-			<div className='my-1 float-right py-5'>
-				<Link href='#experience'>
-					<span className='mx-5 hover:cursor-pointer hover:underline'>Experience</span>
-				</Link>
+			<div className='float-right'>
 				<Link href='#projects'>
-					<span className='mx-5 hover:cursor-pointer hover:underline'>Projects</span>
+					<span className='p-3 hover:cursor-pointer hover:text-red transition'>PROJECTS</span>
 				</Link>
 				<Link href='#contact'>
-					<span className='mx-5 hover:cursor-pointer hover:underline'>Contact</span>
+					<span className='p-3 hover:cursor-pointer hover:text-red transition'>CONTACT</span>
 				</Link>
 			</div>
 		</nav>

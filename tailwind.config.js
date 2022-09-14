@@ -7,13 +7,12 @@ module.exports = {
 	theme: {
 		extend: {},
 		colors: {
-			'light-gray': '#71717a',
-			'dark-gray': '#13121c',
-			'white': '#ebe4f2',
-			'lavender': '#b499ff',
-			'gray': '#aca3b5',
+			'background': '#232226',
+			'white': '#ccd1cb',
+			'red': '#c72e6e',
 		},
 		fontWeight: {
+			normal: 500,
 			bold: 600,
 		},
 		screens: {
