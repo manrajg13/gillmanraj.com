@@ -48,13 +48,13 @@ export default function Home() {
 					<div className='flex place-content-center mt-3 font-bold text-white text-xs'>
 						<a className='px-3 py-2 mx-1 rounded-sm border border-white/[0.15] hover:text-red 
 													hover:border-red hover:cursor-pointer transition'
-							 			href='https://github.com/manrajg13' target='_blank'>GITHUB</a>
+							 			href='https://github.com/manrajg13' target='_blank' rel='noopener noreferrer'>GITHUB</a>
 						<a className='px-3 py-2 mx-1 rounded-sm border border-white/[0.15] hover:text-red 
 													hover:border-red hover:cursor-pointer transition'
-										href='https://www.linkedin.com/in/gill-manraj/' target='_blank'>LINKEDIN</a>
+										href='https://www.linkedin.com/in/gill-manraj/' target='_blank' rel='noopener noreferrer'>LINKEDIN</a>
 						<a className='px-3 py-2 mx-1 rounded-sm border border-white/[0.15] hover:text-red 
 													hover:border-red hover:cursor-pointer transition'
-										href='Resume.pdf' target='_blank'>RESUME</a>
+										href='Resume.pdf' target='_blank' rel='noopener noreferrer'>RESUME</a>
 					</div>
 				</div>
 
@@ -64,10 +64,10 @@ export default function Home() {
 
 					<div className='m-3 mt-8'>
 						<p className='text-white text-sm leading-5'>Currently in my final year as a Computer Science student at the University of 
-							Windsor but taking some time to do a Software Developer internship at BMO. I'm mainly interested in fullstack development but
+							Windsor but taking some time to do a Software Developer internship at BMO. I&apos;m mainly interested in fullstack development but
 							entirely open to trying new areas of Computer Science as I further my knowledge of the field. 
 						</p>
-						<p className='mt-4 text-white text-sm leading-5'>Some technologies I've worked with:</p>
+						<p className='mt-4 text-white text-sm leading-5'>Some technologies I have worked with:</p>
 						<div className='grid mt-4 grid-cols-4 font-bold text-white text-sm'>
 							<p><FaChevronRight className='inline-flex mb-1 text-red text-xs' />React</p>
 							<p><FaChevronRight className='inline-flex mb-1 text-red text-xs' />Node.js</p>
@@ -106,7 +106,7 @@ export default function Home() {
 								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-white/[0.65] bottom-0.5' /></span>
 						
 							<div className='mx-6 mb-2 font-normal text-sm text-white leading-5' style={{display: showMe2?'block':'none'}}>
-								<p><FaChevronRight className='inline-flex mb-1 text-red text-xs' /> I'll let you know when I find out </p>
+								<p><FaChevronRight className='inline-flex mb-1 text-red text-xs' /> I&apos;ll let you know when I find out </p>
 							</div>
 						</div>
 					</div>
@@ -118,7 +118,7 @@ export default function Home() {
 
 					<div className='grid grid-flow-col place-content-center mt-10'>
 						<a className='group relative p-6 mx-2 border border-white w-[230px] h-[230px] shadow-lg transition hover:border-red hover:-translate-y-1'
-							 href='https://github.com/manrajg13/sorting-algorithm-visualizer' target='_blank'>
+							 href='https://github.com/manrajg13/sorting-algorithm-visualizer' target='_blank' rel='noopener noreferrer'>
 							<FaFolderOpen className='mb-4 text-4xl text-white group-hover:text-red' />
 							<h1 className='font-bold text-white text-sm leading-3 group-hover:text-red'>ARRAY SORT VISUALIZER</h1>
 							<p className='mt-4 text-sm text-white group-hover:text-red leading-4'>A visualization of various sorting algorithms with live pseudocode tracing to follow along.</p>
@@ -126,7 +126,7 @@ export default function Home() {
 						</a>
 
 						<a className='group relative p-6 mx-2 border border-white w-[230px] h-[230px] shadow-lg transition hover:border-red hover:-translate-y-1'
-							 href='https://github.com/manrajg13/threejs-voxel' target='_blank'>
+							 href='https://github.com/manrajg13/threejs-voxel' target='_blank' rel='noopener noreferrer'>
 							<FaFolderOpen className='mb-4 text-4xl text-white group-hover:text-red' />
 							<h1 className='font-bold text-white text-sm leading-3 group-hover:text-red'>VOXEL RENDER</h1>
 							<p className='mt-4 text-sm text-white group-hover:text-red'>A 3D voxel model created in Blender and rendered on the web with the help of WebGL.</p>
@@ -134,7 +134,7 @@ export default function Home() {
 						</a>
 
 						<a className='group relative p-6 mx-2 border border-white w-[230px] h-[230px] shadow-lg transition hover:border-red hover:-translate-y-1'
-							 href='https://github.com/manrajg13/shoefull' target='_blank'>
+							 href='https://github.com/manrajg13/shoefull' target='_blank' rel='noopener noreferrer'>
 							<FaFolderOpen className='mb-4 text-4xl text-white group-hover:text-red' />
 							<h1 className='font-bold text-white text-sm leading-3 group-hover:text-red'>SHOEFULL</h1>
 							<p className='mt-4 text-sm text-white group-hover:text-red'>A simple game where you try to hit as many targets as you can before the time runs out.</p>
@@ -148,7 +148,7 @@ export default function Home() {
 					<hr className='border-white/[0.15]'></hr>
 
 					<div className='mx-20'>
-						<p className='mt-10 text-white text-center text-sm leading-4'>I'm always open to conversations for new opportunities! Feel free to email me at the address below or say hi on LinkedIn.</p>
+						<p className='mt-10 text-white text-center text-sm leading-4'>I&apos;m always open to conversations for new opportunities! Feel free to email me at the address below or say hi on LinkedIn.</p>
 						<div className='flex mt-10 place-content-center'>
 							<a className='px-3 py-2 mx-1 bg-red rounded-sm font-bold text-white text-xs hover:opacity-70 hover:cursor-pointer transition' 
 									href='mailto:manraj836@gmail.com?body=Hello%20Manraj%2C%0D%0A' >manraj836@gmail.com</a>
