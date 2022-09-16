@@ -107,7 +107,7 @@ export default function Home() {
 						<div className='group px-2 py-2 font-bold text-sm overflow-hidden hover:cursor-pointer transition hover:opacity-70' onClick={toggle1}>
 							<span className='text-red'>BANK OF MONTREAL </span>
 							<span className='text-black dark:text-white'>Software Developer</span>
-							<span className='-mr-7 dark:text-black/[0.65] text-white/[0.65] float-right transition group-hover:-translate-x-5'>SEP 2022 - DEC 2022 
+							<span className='-mr-7 text-black/[0.65] dark:text-white/[0.65] float-right transition group-hover:-translate-x-5'>SEP 2022 - DEC 2022 
 								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-black/[0.65] dark:text-white/[0.65] bottom-0.5' /></span>
 						
 							<div className='mx-6 mb-1 font-normal text-sm text-black dark:text-white leading-5' style={{display: showMe1?"block":"none"}}>
