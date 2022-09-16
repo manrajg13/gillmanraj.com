@@ -9,6 +9,7 @@
   }
 
   body {
+    @apply: dark: bg-dark-background;
     margin: 0;
     padding: 0;
   }
