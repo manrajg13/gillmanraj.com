@@ -5,8 +5,22 @@ import Link from "next/link"
 export default function Navbar() {
 	const { theme, setTheme } = useTheme()
 
+	function removeDelay() {
+		document.getElementById('navbar').classList.remove('transition')
+		document.getElementById('navbar').classList.remove('delay-[2400ms]')
+		document.getElementById('navbar').classList.remove('duration-500')
+		document.getElementById('h1').classList.remove('transition')
+		document.getElementById('h1').classList.remove('duration-[1200ms]')
+		document.getElementById('h2').classList.remove('duration-500')
+		document.getElementById('h2').classList.remove('delay-[1800ms]')
+		document.getElementById('links').classList.remove('transition')
+		document.getElementById('links').classList.remove('duration-500')
+		document.getElementById('links').classList.remove('delay-[2600ms]')
+	}
+
 	useEffect(() => {
    	document.getElementById('navbar').classList.remove('-translate-y-12')
+		setInterval(removeDelay, 3200)
 	},[])
 
 	return (
@@ -18,9 +32,9 @@ export default function Navbar() {
 			</div>
 
 			<div className='float-right'>
-				<span id='mode' className='p-3 hover:cursor-pointer hover:text-red transition' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+				<a id='mode' className='p-3 hover:cursor-pointer hover:text-red transition' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
         	DARK MODE
-      	</span>
+      	</a>
 				<Link href='#contact'>
 					<span className='p-3 hover:cursor-pointer hover:text-red transition'>CONTACT</span>
 				</Link>
