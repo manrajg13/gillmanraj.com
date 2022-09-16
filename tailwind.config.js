@@ -10,6 +10,7 @@ module.exports = {
 			'background': '#232226',
 			'white': '#ccd1cb',
 			'red': '#c72e6e',
+			'blue': '#91ffde',
 		},
 		fontWeight: {
 			normal: 500,

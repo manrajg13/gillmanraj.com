@@ -1,9 +1,13 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import Link from "next/link"
 
 export default function Navbar() {
+	useEffect(() => {
+   	document.getElementById('n').classList.remove('-translate-y-12')
+	})
+
 	return (
-		<nav className='fixed ml-[-375px] py-4 left-[50%] top-0 text-sm font-bold text-white w-[750px] bg-background/[0.8] z-10'>
+		<nav id='n' className='fixed ml-[-375px] py-4 left-[50%] top-0 text-sm font-bold text-white w-[750px] bg-background/[0.8] z-14 transition -translate-y-12 delay-[3000ms] duration-500'>
 			<div className='float-left'>
 				<Link href='/'>
 					<span className='p-3 hover:cursor-pointer hover:text-red transition duration-150 hover:ease-in'>MANRAJ GILL</span>
