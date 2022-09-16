@@ -24,7 +24,7 @@ export default function Navbar() {
 	},[])
 
 	return (
-		<nav id='navbar' className='fixed w-[100vw] z-10 md:ml-[-375px] py-4 md:left-[50%] md:w-[750px] top-0 text-sm font-bold text-black dark:text-white z-14 transition -translate-y-12 delay-[2400ms] duration-500'>
+		<nav id='navbar' className='fixed w-[100vw] z-10 md:ml-[-375px] py-4 md:left-[50%] md:w-[750px] top-0 text-sm font-bold text-black bg-light-background/[0.7] dark:text-white dark:bg-dark-background/[0.7] z-14 transition -translate-y-12 delay-[2400ms] duration-500'>
 			<div className='float-left'>
 				<Link href='/'>
 					<span className='p-3 hover:cursor-pointer hover:text-red transition duration-150 hover:ease-in'>MANRAJ GILL</span>
