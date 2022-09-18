@@ -78,62 +78,31 @@ export default function Home() {
 					<p className='my-1 text-red font-bold'>ABOUT ME</p> 
 					<hr className='border-gray dark:border-white/[0.15]'></hr>
 
-					<div className='text-black dark:text-white leading-5'>
-						<p className='mt-4'>Currently in my final year as a Computer Science student at the University of 
-							Windsor but doing a 4 month internship at BMO. I&apos;m mainly interested in fullstack development but
-							entirely open to trying new areas of Computer Science as I further my knowledge of the field.
-						</p>
-						<p className='mt-4'>In my freetime I enjoy looking at art, listening to music, creating digital/traditional
-							drawings, and playing strategy based games.</p>
-						<p className='mt-4'>Some technologies I have worked with:</p>
-						<div className='grid mt-4 md:grid-cols-4 grid-cols-2 font-bold text-sm'>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />React</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Node.js</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Typescript</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Flask</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Django</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />TailwindCSS</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Next.js</p>
-							<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Three.js</p>
+					<div className='flex'>
+						<div className='group w-[220px] mt-8'>
+							<img className='absolute w-[200px] filter grayscale group-hover:scale-[1.15] rounded-full transition-all duration-200' src='face.png' />
+						</div>
+						<div className='w-[450px] text-black dark:text-white leading-5'>
+							<p className='mt-8'>Currently in my final year as a Computer Science student at the University of 
+								Windsor but doing a 4 month internship at BMO. I&apos;m mainly interested in fullstack development but
+								entirely open to trying out new fields in Computer Science as I further my knowledge of the field.
+							</p>
+							<p className='mt-4'>Some technologies I have worked with:</p>
+							<div className='grid mt-4 md:grid-cols-3 grid-cols-2 font-bold text-sm'>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />React</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Node.js</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Typescript</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Flask</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Django</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />TailwindCSS</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Next.js</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Three.js</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />C</p>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<div id='experience' className='mt-10 opacity-0 transition duration-500 delay-[2400ms]'>
-					<p className='my-1 text-red font-bold'>EXPERIENCE</p> 
-					<hr className='border-gray dark:border-white/[0.15]'></hr>
-
-					<div className='m-3 mt-8'>
-						<div className='group px-2 py-2 font-bold text-sm overflow-hidden hover:cursor-pointer transition hover:opacity-70' onClick={toggle1}>
-							<span className='text-red'>BANK OF MONTREAL </span>
-							<span className='text-black dark:text-white'>Software Developer</span>
-							<span className='-mr-7 text-black/[0.65] dark:text-white/[0.65] float-right transition group-hover:-translate-x-5'>SEP 2022 - DEC 2022 
-								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-black/[0.65] dark:text-white/[0.65] bottom-0.5' /></span>
-						
-							<div className='mx-6 mb-1 font-normal text-sm text-black dark:text-white leading-5' style={{display: showMe1?"block":"none"}}>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> I&apos;ll let you know when I find out </p>
-							</div>
-						</div>
-
-						<hr className='ml-1 border-gray dark:border-white/[0.15]'></hr>
-
-						<div className='group px-2 py-2 font-bold text-sm overflow-hidden hover:cursor-pointer transition hover:opacity-70' onClick={toggle2}>
-							<span className='text-red'>CITY OF WINDSOR </span>
-							<span className='text-black dark:text-white'>Database Management</span>
-							<span className='-mr-7 text-black/[0.65] dark:text-white/[0.65] float-right transition group-hover:-translate-x-5'>JAN 2021 - SEP 2021 
-								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-black/[0.65] dark:text-white/[0.65] bottom-0.5' /></span>
-						
-							<div className='mx-6 mb-1 font-normal text-sm text-black dark:text-white leading-5' style={{display: showMe2?'block':'none'}}>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Managed asset data collection of over 200 parks in Windsor</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Verified and updated over 4000 assets using Citywide Software</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Regularly performed quality checks on assigned assets in database</p>
-							</div>
-						</div>
-
-						<hr className='ml-1 border-gray dark:border-white/[0.15]'></hr>
-					</div>
-				</div>
-			
 				<div id='projects' className='mt-12 opacity-0 transition duration-500 delay-[2400ms]'>
 					<p className='my-1 text-red font-bold'>PROJECTS</p> 
 					<hr className='border-gray dark:border-white/[0.15]'></hr>
@@ -175,6 +144,41 @@ export default function Home() {
 								<p className='p-[2px] px-1 mr-1 bg-dark-blue/[0.2] text-dark-blue dark:bg-light-blue/[0.2] dark:text-light-blue group-hover:bg-red/[0.2] group-hover:text-red'>ggez</p>
 							</div>
 						</a>
+					</div>
+				</div>
+
+				<div id='experience' className='mt-10 opacity-0 transition duration-500 delay-[2400ms]'>
+					<p className='my-1 text-red font-bold'>EXPERIENCE</p> 
+					<hr className='border-gray dark:border-white/[0.15]'></hr>
+
+					<div className='m-3 mt-8'>
+						<div className='group px-2 py-2 font-bold text-sm overflow-hidden hover:cursor-pointer transition hover:opacity-70' onClick={toggle1}>
+							<span className='text-red'>BANK OF MONTREAL </span>
+							<span className='text-black dark:text-white'>Software Developer</span>
+							<span className='-mr-7 text-black/[0.65] dark:text-white/[0.65] float-right transition group-hover:-translate-x-5'>SEP 2022 - DEC 2022 
+								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-black/[0.65] dark:text-white/[0.65] bottom-0.5' /></span>
+						
+							<div className='mx-6 mb-1 font-normal text-sm text-black dark:text-white leading-5' style={{display: showMe1?"block":"none"}}>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> I&apos;ll let you know when I find out </p>
+							</div>
+						</div>
+
+						<hr className='ml-1 border-gray dark:border-white/[0.15]'></hr>
+
+						<div className='group px-2 py-2 font-bold text-sm overflow-hidden hover:cursor-pointer transition hover:opacity-70' onClick={toggle2}>
+							<span className='text-red'>CITY OF WINDSOR </span>
+							<span className='text-black dark:text-white'>Database Management</span>
+							<span className='-mr-7 text-black/[0.65] dark:text-white/[0.65] float-right transition group-hover:-translate-x-5'>JAN 2021 - SEP 2021 
+								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-black/[0.65] dark:text-white/[0.65] bottom-0.5' /></span>
+						
+							<div className='mx-6 mb-1 font-normal text-sm text-black dark:text-white leading-5' style={{display: showMe2?'block':'none'}}>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Managed asset data collection of over 200 parks in Windsor</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Verified and updated over 4000 assets using Citywide Software</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Regularly performed quality checks on assigned assets in database</p>
+							</div>
+						</div>
+
+						<hr className='ml-1 border-gray dark:border-white/[0.15]'></hr>
 					</div>
 				</div>
 
