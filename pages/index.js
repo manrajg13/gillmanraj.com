@@ -79,25 +79,25 @@ export default function Home() {
 					<hr className='border-gray dark:border-white/[0.15]'></hr>
 
 					<div className='md:flex block'>
-						<div className='w-[210px] md:ml-3 md:mr-8 mx-auto mt-8 overflow-hidden hover:scale-[1.05] transition-all duration-300 rounded-full'>
-							<img src='face.jpg' />
+						<div className='w-[180px] overflow-hidden md:ml-4 md:mr-8 mx-auto mt-12 overflow-hidden hover:scale-[1.05] transition-all duration-300 rounded-full'>
+							<img className='w-[180px] rounded-full' src='face.jpg' />
 						</div>
-						<div className='md:w-[450px] text-black dark:text-white leading-5'>
+						<div className='md:w-[490px] text-black dark:text-white leading-5'>
 							<p className='mt-8 md:text-left text-center'>Currently in my final year as a Computer Science student at the University of 
 								Windsor and doing a 4 month internship at BMO. I&apos;m mainly interested in fullstack development but
 								entirely open to trying out new fields in Computer Science as I further my knowledge of the field.
 							</p>
-							<p className='mt-4 md:text-left text-center'>Some technologies I have worked with:</p>
+							<p className='mt-4 md:text-left tedxt-center'>Some technologies I have worked with:</p>
 							<div className='md:ml-0 ml-8 grid mt-4 md:grid-cols-3 grid-cols-2 font-bold text-sm'>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />React</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Node.js</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Typescript</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Flask</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Django</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />TailwindCSS</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Next.js</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Three.js</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />C</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />NodeJS</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />NextJS</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />ThreeJS</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Express</p>
 							</div>
 						</div>
 					</div>
