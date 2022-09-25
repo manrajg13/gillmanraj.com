@@ -79,10 +79,10 @@ export default function Home() {
 					<hr className='border-gray dark:border-white/[0.15]'></hr>
 
 					<div className='md:flex block'>
-						<div className='w-[180px] overflow-hidden md:ml-4 md:mr-8 mx-auto mt-12 overflow-hidden hover:scale-[1.05] transition-all duration-300 rounded-full'>
-							<img className='w-[180px] rounded-full' src='face.jpg' />
+						<div className='md:absolute w-[160px] rounded-full md:ml-4 md:mr-8 mx-auto mt-[52px] overflow-hidden hover:scale-[1.05] transition-all duration-300'>
+							<img className='ml-[10px] scale-[1.13]' src='face.jpg' />
 						</div>
-						<div className='md:w-[490px] text-black dark:text-white leading-5'>
+						<div className='md:w-[490px] md:ml-[220px] ml-[0px] text-black dark:text-white leading-5'>
 							<p className='mt-8 md:text-left text-center'>Currently in my final year as a Computer Science student at the University of 
 								Windsor and doing a 4 month internship at BMO. I&apos;m mainly interested in fullstack development but
 								entirely open to trying out new fields in Computer Science as I further my knowledge of the field.

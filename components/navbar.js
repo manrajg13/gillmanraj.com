@@ -5,11 +5,20 @@ import Link from "next/link"
 
 export default function Navbar() {
 	const { theme, setTheme } = useTheme()
+	const [mounted, setMounted] = useState(false)
 
-	function changeMode() {
-		if (theme == 'dark') {
-			document.getElementById('moon').style.display = 'hidden'
-		}
+	useEffect(() => {
+		setMounted(true)
+		setInterval(removeDelay, 3200)
+		setInterval(showNav, 10)
+	}, [])
+
+	if (!mounted) {
+		return null
+	}
+
+	function showNav() {
+		document.getElementById('navbar').classList.remove('-translate-y-12')
 	}
 
 	function removeDelay() {
@@ -25,16 +34,11 @@ export default function Navbar() {
 		document.getElementById('links').classList.remove('delay-[2600ms]')
 	}
 
-	useEffect(() => {
-   	document.getElementById('navbar').classList.remove('-translate-y-12')
-		setInterval(removeDelay, 3200)
-	},[])
-
 	return (
 		<nav id='navbar' 
 				 className='fixed w-[100vw] z-10 md:ml-[-375px] py-4 md:left-[50%] md:w-[750px] top-0 text-sm 
 				 						font-bold text-black bg-light-background/[0.7] dark:text-white dark:bg-dark-background/[0.7]
-				 						z-14 transition -translate-y-12 delay-[2400ms] duration-500'>
+				 						z-14 transition-all -translate-y-12 delay-[2400ms] duration-500'>
 			<div className='float-left'>
 				<Link href='/'>
 					<span className='p-3 hover:cursor-pointer hover:text-red transition duration-150 hover:ease-in'>
@@ -44,10 +48,13 @@ export default function Navbar() {
 			</div>
 
 			<div className='float-right'>
-				<a id='mode' className='p-3 hover:cursor-pointer hover:text-red transition' 
+				<a className='p-3 hover:cursor-pointer hover:text-red transition' 
 					 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-        	 {theme == 'dark' ? (<FaMoon className='inline-flex mb-1'/>)
-					 : ( <FaSun className='inline-flex scale-125 mb-1'/> )}
+        	 {
+        	 	theme == 'dark' 
+	        	 ? ( <FaSun className='inline-flex mb-1'/> )
+						 : ( <FaMoon className='inline-flex mb-1'/> )
+					 }
       	</a>
 				<Link href='#contact'>
 					<span className='p-3 hover:cursor-pointer hover:text-red transition'>CONTACT</span>
