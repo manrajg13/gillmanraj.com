@@ -22,7 +22,7 @@ export default function Navbar() {
 	}
 
 	function removeDelay() {
-		document.getElementById('navbar').classList.remove('transition')
+		document.getElementById('navbar').classList.remove('transition-all')
 		document.getElementById('navbar').classList.remove('delay-[2400ms]')
 		document.getElementById('navbar').classList.remove('duration-500')
 		document.getElementById('h1').classList.remove('transition')
