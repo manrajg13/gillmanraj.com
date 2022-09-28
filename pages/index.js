@@ -150,7 +150,6 @@ export default function Home() {
 							<h1 className='font-bold text-sm leading-3'>SORT VISUALIZER</h1>
 							<p className='mt-4 text-sm leading-4'>A visualization of various sorting algorithms with live pseudocode tracing.</p>
 							<div className='inline-flex absolute bottom-6 text-xs'>
-								<p className='p-[2px] px-1 mr-1 bg-dark-blue/[0.2] text-dark-blue dark:bg-light-blue/[0.2] dark:text-light-blue group-hover:bg-red/[0.2] group-hover:text-red'>Javascript</p>
 								<p className='p-[2px] px-1 mr-1 bg-dark-blue/[0.2] text-dark-blue dark:bg-light-blue/[0.2] dark:text-light-blue group-hover:bg-red/[0.2] group-hover:text-red'>ChartJS</p>
 							</div>
 						</a>
@@ -162,7 +161,6 @@ export default function Home() {
 							<h1 className='font-bold text-sm leading-3'>VOXEL RENDER</h1>
 							<p className='mt-4 text-sm leading-4'>A 3D voxel model created in Blender and rendered on the web with WebGL.</p>
 							<div className='inline-flex absolute bottom-6 text-xs'>
-								<p className='p-[2px] px-1 mr-1 bg-dark-blue/[0.2] text-dark-blue dark:bg-light-blue/[0.2] dark:text-light-blue group-hover:bg-red/[0.2] group-hover:text-red'>Javascript</p>
 								<p className='p-[2px] px-1 mr-1 bg-dark-blue/[0.2] text-dark-blue dark:bg-light-blue/[0.2] dark:text-light-blue group-hover:bg-red/[0.2] group-hover:text-red'>NodeJS</p>
 								<p className='p-[2px] px-1 mr-1 bg-dark-blue/[0.2] text-dark-blue dark:bg-light-blue/[0.2] dark:text-light-blue group-hover:bg-red/[0.2] group-hover:text-red'>ThreeJS</p>
 							</div>
