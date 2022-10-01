@@ -93,7 +93,7 @@ export default function Home() {
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Typescript</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Flask</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Django</p>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />TailwindCSS</p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />Pandas</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />NodeJS</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />NextJS</p>
 								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-xs' />ThreeJS</p>
