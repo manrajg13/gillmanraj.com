@@ -115,7 +115,9 @@ export default function Home() {
 								&nbsp;&nbsp;<FaChevronDown className='relative inline-flex text-black/[0.65] dark:text-white/[0.65] bottom-0.5' /></span>
 						
 							<div className='mx-6 mb-1 font-normal text-sm text-black dark:text-white leading-5' style={{display: showMe1?"block":"none"}}>
-								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> I&apos;ll let you know when I find out </p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Developed validation features for an operational risk management based webapp using Pandas </p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Implemented confirmation rules for 6 types of financial data files and templates </p>
+								<p><FaChevronRight className='inline-flex mb-[2px] text-red text-sm' /> Assisted in quality assurance of several tickets in order to decrease defects in multiple features </p>
 							</div>
 						</div>
 
