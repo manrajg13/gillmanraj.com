@@ -10,7 +10,7 @@ export default function Navbar() {
 	useEffect(() => {
 		setMounted(true)
 		setInterval(removeDelay, 3200)
-		setInterval(showNav, 10)
+		setInterval(showNav, 100)
 	}, [])
 
 	if (!mounted) {

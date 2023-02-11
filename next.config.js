@@ -4,4 +4,11 @@ const nextConfig = {
 	swcMinify: true,
 }
 
+rewrites: async () => [
+	{
+    source: "/public/sort.html",
+    destination: "/pages/api/sort.js",
+  },
+],
+
 module.exports = nextConfig

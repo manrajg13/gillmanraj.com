@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <div class="container">
+        <div id="algorithm-name">Bubble Sort</div>
+        <canvas id="chart"></canvas>
+        <div id="steps-container">
+            <div class="measuringWrapper">
+                <div class="text">
+                    <p id="step1" class="steps"></p>
+                    <p id="step2" class="steps"></p>
+                    <p id="step3" class="steps"></p>
+                    <p id="step4" class="steps"></p>
+                    <p id="step5" class="steps"></p>
+                    <p id="step6" class="steps"></p>
+                    <p id="step7" class="steps"></p>
+                    <p id="step8" class="steps"></p>
+                    <p id="step9" class="steps"></p>
+                    <p id="step10" class="steps"></p>
+                    <p id="step11" class="steps"></p>
+                </div>
+            </div>
+        </div>
+        <button id="show-steps">&equiv;</button>
+        <div id="inputs">
+            <label for="algorithm"></label>
+            <select name="algorithms" id="algorithm-select">
+                <option value="bogoSort">Bogo Sort</option>
+                <option value="bubbleSort">Bubble Sort</option>
+                <option value="selectionSort">Selection Sort</option>
+                <option value="quickSort">Quick Sort</option>
+                <option value="insertionSort">Insertion Sort</option>
+            </select>
+            <input id="size" type="number">
+            <button id="shuffle">Shuffle</button>
+            <button id="sort">Sort</button>
+            <input id="speed" type="range" min="0" max="2000">
+            <button id="reset" onClick="window.location.reload();">Reset</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script type = "module" src="canvas.js"></script>
+</body>
+</html>
